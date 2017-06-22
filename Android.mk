@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter gemini lithium natrium scorpio,$(TARGET_DEVICE)),)
+ifneq ($(filter capricorn gemini lithium natrium scorpio,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libloc_api_v02
